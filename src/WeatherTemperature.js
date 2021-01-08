@@ -4,12 +4,12 @@ export default function WeatherTemperature(props) {
     const [unit, setUnit] = useState("celsius");
 
     function showFahrenheit(event) {
-        event.prevenDefault();
+        event.preventDefault();
         setUnit("fahrenheit");
     }
 
     function showCelsius(event) {
-        event.prevenDefault();
+        event.preventDefault();
         setUnit("celsius");
     }
 
