@@ -49,6 +49,7 @@
 .Weather .coord {
   text-align: center;
   font-size: 15px;
+  margin-bottom: 3px;
   background-color: #171818;
   -webkit-background-clip: text;
   -moz-background-clip: text;
