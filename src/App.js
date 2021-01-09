@@ -15,6 +15,8 @@ function App() {
       <br />
       <Weather defaultCity="Cannes" />
       <br />
+      <Weather defaultCity="Vallejo" />
+      <br />
       <Weather defaultCity="New York" />
       <br />
       <Weather defaultCity="Paris" />
