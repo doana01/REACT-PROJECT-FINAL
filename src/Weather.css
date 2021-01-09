@@ -10,7 +10,7 @@
   color: rgb(204, 189, 189);
   max-width: 600px;
   border-radius: 5px;
-  padding: 30px 30px 30px 30px;
+  padding: 20px 30px 30px 30px;
 }
 
 .Weather h1 {
@@ -86,9 +86,10 @@
 }
 
 .Weather .form-control {
-  border: 1px solid;
-  font-size: 20px;
-  background-color: rgb(213, 223, 223);
+  text-align: center;
+  border: 0.5px transparent;
+  font-size: 18px;
+  background-color: rgb(255, 145, 182);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
@@ -96,9 +97,11 @@
   text-shadow: rgba(26, 27, 27, 0.5) 0px 3px 3px;
 }
 .Weather .btn {
-  border: 0.5px solid;
-  font-size: 18px;
-  background-color: #171818;
+  border: 0.5px transparent;
+  font-size: 17px;
+  margin-left: 20px;
+  margin-top: 5px;
+  background-color: #1f1d1d;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
