@@ -27,8 +27,9 @@ function App() {
       <br />
       <Weather defaultCity="Antarctica" />
 
-      <footer><a href="https://github.com/doana01/REACT-PROJECT-FINAL" id="link">Open-source</a> coded by 🐇  <a href="https://www.linkedin.com/in/mimoolah/" id="link">Doana Ruhlmann</a>
+      <footer><a href="https://github.com/doana01/REACT-PROJECT-FINAL" id="link">Open-source</a> coded by 🐇  <a href="https://www.linkedin.com/in/mimoolah/" id="link">the busy bunny</a>
       </footer>
+      <p><em>".. have a great day human💖"</em></p>
     </div>
 
   );
