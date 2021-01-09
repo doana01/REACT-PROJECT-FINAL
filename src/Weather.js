@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import WeatherInfo from "./WeatherInfo";
 import WeatherForecast from "./WeatherForecast";
 import axios from "axios";
+
 import "./Weather.css";
 
 export default function Weather(props) {
@@ -41,6 +42,7 @@ export default function Weather(props) {
 
     if (weatherData.ready) {
         return (
+
             <div className="Weather">
                 <form onSubmit={handleSubmit}>
                     <div className="row">
@@ -52,6 +54,7 @@ export default function Weather(props) {
                                 onChange={handleCityChange}
                             />
                         </div>
+
                         <div className="col-3">
                             <input type="submit"
                                 value="Search"
@@ -60,6 +63,7 @@ export default function Weather(props) {
                         </div>
                     </div>
                 </form>
+
                 <WeatherInfo data={weatherData} />
                 <br />
                 <hr />

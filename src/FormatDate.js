@@ -29,6 +29,7 @@ export default function FormatDate(props) {
     let month = months[props.date.getMonth()];
     let datenow = props.date.getDate();
     let year = props.date.getFullYear();
+
     let hours = props.date.getHours();
     if (hours < 10) {
         hours = ` ${hours}`;
@@ -41,7 +42,7 @@ export default function FormatDate(props) {
 
     return (
         <div>
-            {hours}:{minutes}   {day}  {month} {datenow}, {year}
+            <em>It is now</em>  {hours}:{minutes}   {day}  {month} {datenow}, {year}
         </div>
     );
 }
