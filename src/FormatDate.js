@@ -42,7 +42,7 @@ export default function FormatDate(props) {
 
     return (
         <div>
-            <em>It is now</em>  {hours}:{minutes}   {day}  {month} {datenow}, {year}
+            <em>Today is</em>  {hours}:{minutes} | {day}  {month} {datenow}, {year}
         </div>
     );
 }
