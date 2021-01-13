@@ -7,10 +7,10 @@ export default function WeatherInfo(props) {
     return (
         <div className="WeatherInfo">
 
-            <h1> {props.data.city}</h1>
+            <h1>{props.data.city}</h1>
 
             <ul>
-                <li className="coord"><span>Lat: {Math.round(props.data.lat)}</span> / <span> Lon: {Math.round(props.data.lon)}</span>
+                <li className="coord"><span>Lat: {props.data.lat}</span> / <span> Lon: {props.data.lon}</span>
                 </li>
                 <li className="date">
                     <FormatDate date={props.data.date} />

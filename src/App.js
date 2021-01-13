@@ -1,12 +1,12 @@
 import React from "react";
 import Weather from "./Weather";
 
-import './App.css';
+import "./App.css";
 
 export default function App() {
 
   return (
-    <div className="App">
+    <div className="App" >
 
       <div className="container"></div>
 
@@ -30,8 +30,10 @@ export default function App() {
 
       <footer><a href="https://github.com/doana01/REACT-PROJECT-FINAL" id="link">Open-source</a> coded with love by 🐇  <a href="https://www.linkedin.com/in/mimoolah/" id="link">the busy bunny</a>
       </footer>
-      <p><em>".. have a great day human💖"</em></p>
+      <p><em>".. have a great day human💖 "</em></p>
     </div>
 
   );
 }
+
+
