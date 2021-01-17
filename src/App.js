@@ -10,15 +10,15 @@ export default function App() {
 
       <div className="container"></div>
 
-      <Weather defaultCity="Montblanc" />
-      <br />
       <Weather defaultCity="San Francisco" />
       <br />
       <Weather defaultCity="Cannes" />
       <br />
-      <Weather defaultCity="Vallejo" />
+      <Weather defaultCity="Tanzania" />
       <br />
       <Weather defaultCity="New York" />
+      <br />
+      <Weather defaultCity="Montblanc" />
       <br />
       <Weather defaultCity="Paris" />
       <br />
