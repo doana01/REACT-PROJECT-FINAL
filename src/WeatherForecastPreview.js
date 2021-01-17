@@ -5,7 +5,11 @@ export default function WeatherForecastPreview(props) {
 
     function hours() {
         let date = new Date(props.data.dt * 1000);
+
         let hours = date.getHours();
+        if (hours < 10) {
+            hours = `0${hours}`;
+        }
         return `${hours}:00`;
     }
 
