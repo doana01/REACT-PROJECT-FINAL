@@ -22,9 +22,11 @@ export default function App() {
       <br />
       <Weather defaultCity="Paris" />
       <br />
+      <Weather defaultCity="El Nido" />
+      <br />
       <Weather defaultCity="Tahiti" />
       <br />
-      <Weather defaultCity="Rio de Janeiro" />
+      <Weather defaultCity="Lisbon" />
       <br />
       <Weather defaultCity="Antarctica" />
 
